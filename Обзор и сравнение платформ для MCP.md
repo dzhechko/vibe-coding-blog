@@ -680,8 +680,8 @@ https://claude.site/artifacts/661bae5a-713d-4efb-b271-70442e04fea3
 https://claude.site/artifacts/2c7b41c5-a45f-4a7a-974d-61b14cee58ad
 
 ## Диаграмма экосистемы MCP
-```
-mermaid
+```mermaid
+flowchart TD
     MCP[Model Context Protocol] --> Frameworks[Фреймворки]
     MCP --> Registries[Реестры]
     MCP --> Hosting[Хостинг]
@@ -690,9 +690,9 @@ mermaid
     
     Frameworks --> EasyMCP["EasyMCP (TypeScript)"]
     Frameworks --> FastAPIMCP["FastAPI-MCP (Python)"]
-    Frameworks --> FastMCP[FastMCP<br/>TypeScript]
-    Frameworks --> MCPFramework[MCP-Framework<br/>TypeScript]
-    Frameworks --> FoxyContexts[Foxy Contexts<br/>Go]
+    Frameworks --> FastMCP["FastMCP (TypeScript)"]
+    Frameworks --> MCPFramework["MCP-Framework (TypeScript)"]
+    Frameworks --> FoxyContexts["Foxy Contexts (Go)"]
     
     Registries --> Portkey[Portkey.ai]
     Registries --> MCPGet[mcp-get.com]
