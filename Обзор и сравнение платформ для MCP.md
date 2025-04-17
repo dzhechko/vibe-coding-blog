@@ -680,6 +680,7 @@ https://claude.site/artifacts/661bae5a-713d-4efb-b271-70442e04fea3
 https://claude.site/artifacts/2c7b41c5-a45f-4a7a-974d-61b14cee58ad
 
 ## Диаграмма экосистемы MCP
+```
 graph TD
     MCP[Model Context Protocol] --> Frameworks[Фреймворки для разработки]
     MCP --> Registries[Реестры и каталоги]
@@ -717,6 +718,7 @@ graph TD
     Servers --> Brave[Brave Search MCP]
     Servers --> PostgreSQL[PostgreSQL MCP]
     Servers --> Docker[Docker MCP]
+```
 
 ## Интеграция MCP с различными экосистемами
 
