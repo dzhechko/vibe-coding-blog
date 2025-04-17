@@ -682,14 +682,14 @@ https://claude.site/artifacts/2c7b41c5-a45f-4a7a-974d-61b14cee58ad
 ## Диаграмма экосистемы MCP
 ```
 mermaid
-    MCP[Model Context Protocol] --> Frameworks[Фреймворки для разработки]
-    MCP --> Registries[Реестры и каталоги]
-    MCP --> Hosting[Хостинг-платформы]
-    MCP --> Tools[Инструменты управления]
-    MCP --> Servers[Популярные MCP серверы]
+    MCP[Model Context Protocol] --> Frameworks[Фреймворки]
+    MCP --> Registries[Реестры]
+    MCP --> Hosting[Хостинг]
+    MCP --> Tools[Инструменты]
+    MCP --> Servers[Серверы]
     
-    Frameworks --> EasyMCP[EasyMCP<br/>TypeScript]
-    Frameworks --> FastAPIMCP[FastAPI-MCP<br/>Python]
+    Frameworks --> EasyMCP["EasyMCP (TypeScript)"]
+    Frameworks --> FastAPIMCP["FastAPI-MCP (Python)"]
     Frameworks --> FastMCP[FastMCP<br/>TypeScript]
     Frameworks --> MCPFramework[MCP-Framework<br/>TypeScript]
     Frameworks --> FoxyContexts[Foxy Contexts<br/>Go]
