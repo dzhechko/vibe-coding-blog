@@ -667,8 +667,6 @@ MCP открывает новые горизонты для интеграции
 
 ## Радар-графики для сравнения платформ MCP
 
-### Количество MCP серверов по платформам
-https://claude.site/artifacts/f1f5d245-5ac9-4db3-a9ca-7bce91694709
 
 ### Тепловая карта сравнения характеристик различных MCP платформ
 https://claude.site/artifacts/9506227e-7e75-48b2-8620-4999fe9282be
@@ -676,8 +674,6 @@ https://claude.site/artifacts/9506227e-7e75-48b2-8620-4999fe9282be
 ### Круговая диаграмма категорий MCP серверов
 https://claude.site/artifacts/661bae5a-713d-4efb-b271-70442e04fea3
 
-### Линейный график роста экосистемы MCP
-https://claude.site/artifacts/2c7b41c5-a45f-4a7a-974d-61b14cee58ad
 
 ## Диаграмма экосистемы MCP
 ```mermaid
