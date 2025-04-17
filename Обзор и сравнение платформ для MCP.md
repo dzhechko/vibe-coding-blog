@@ -681,7 +681,7 @@ https://claude.site/artifacts/2c7b41c5-a45f-4a7a-974d-61b14cee58ad
 
 ## Диаграмма экосистемы MCP
 ```
-graph TD
+mermaid
     MCP[Model Context Protocol] --> Frameworks[Фреймворки для разработки]
     MCP --> Registries[Реестры и каталоги]
     MCP --> Hosting[Хостинг-платформы]
