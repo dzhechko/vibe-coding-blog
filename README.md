@@ -7,7 +7,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/dzhechko/vibe-coding-blog?style=flat-square)
 
 <p align="center">
-  <img src="https://github.com/dzhechko/vibe-coding-blog/assets/yourname/vibecoding.png" alt="Vibe Coding Logo" width="550" />
+  <img src="https://i.imghippo.com/files/RUX1469tMc.jpg" alt="Vibe Coding Logo" width="550" />
 </p>
 
 ## 📚 Содержание
