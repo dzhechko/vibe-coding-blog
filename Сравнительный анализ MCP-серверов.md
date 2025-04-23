@@ -72,94 +72,94 @@
 
 ### 1. Агрегаторы (Aggregators)
 
-| Название | Языки программирования | Тип размещения | Операционные системы | Транспортные протоколы | Интеграции | Зрелость проекта |
-|----------|------------------------|----------------|----------------------|------------------------|------------|------------------|
-| [julien040/anyquery](https://github.com/julien040/anyquery) | JavaScript | Локальный | все | SSE, STDIO | PostgreSQL, MySQL, SQLite, 40+ приложений | Активная разработка |
-| [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) | Python | Облачный/локальный | все | SSE | Множество баз данных и сервисов | Стабильный релиз, активное сообщество |
-| [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream/tree/master/modelcontextprotocol) | JavaScript | Облачный | все | HTTP | 2,500+ API, 8,000+ инструментов | Коммерческий продукт, активная разработка |
-| [WayStation-ai/mcp](https://github.com/waystation-ai/mcp) | TypeScript | Локальный | все | SSE | Notion, Slack, Monday, Airtable | Активная разработка |
+| Название | Языки программирования | Тип размещения | Основное назначение | Интеграции | Зрелость проекта |
+|----------|------------------------|----------------|---------------------|------------|------------------|
+| [julien040/anyquery](https://github.com/julien040/anyquery) | JavaScript | Локальный | Запросы к множеству приложений через SQL-подобный интерфейс. Позволяет AI выполнять запросы к локальным и облачным базам данных через единый интерфейс. | PostgreSQL, MySQL, SQLite, 40+ приложений | Активная разработка |
+| [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) | Python | Облачный/локальный | Объединение данных из различных источников. Предоставляет унифицированный интерфейс для доступа к разным базам данных и платформам через AI-интерфейс. | Множество баз данных и сервисов | Стабильный релиз, активное сообщество |
+| [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream/tree/master/modelcontextprotocol) | JavaScript | Облачный | Интеграция с тысячами API через единый сервер. Позволяет AI управлять интеграционными процессами и обрабатывать данные из разных источников. | 2,500+ API, 8,000+ инструментов | Коммерческий продукт, активная разработка |
+| [WayStation-ai/mcp](https://github.com/waystation-ai/mcp) | TypeScript | Локальный | Быстрое подключение AI-ассистентов к популярным продуктивным приложениям. Позволяет интегрировать AI с рабочими инструментами менее чем за 90 секунд. | Notion, Slack, Monday, Airtable | Активная разработка |
 
 ### 2. Базы данных (Databases)
 
-| Название | Языки программирования | Тип размещения | Операционные системы | Безопасность | Интеграции | Зрелость проекта |
-|----------|------------------------|----------------|----------------------|--------------|------------|------------------|
-| [bytebase/dbhub](https://github.com/bytebase/dbhub) | Go | Локальный/Облачный | все | Контроль доступа | Множество баз данных | Активная разработка |
-| [redis/mcp-redis](https://github.com/redis/mcp-redis) | TypeScript | Локальный/Облачный | все | Аутентификация API | Redis | Официальная реализация |
-| [ClickHouse/mcp-clickhouse](https://github.com/ClickHouse/mcp-clickhouse) | TypeScript | Локальный/Облачный | все | Аутентификация | ClickHouse | Официальная реализация |
-| [supabase-community/supabase-mcp](https://github.com/supabase-community/supabase-mcp) | TypeScript | Облачный | все | Токены API | Supabase | Официальная реализация |
-| [neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j) | TypeScript | Локальный/Облачный | все | Аутентификация | Neo4j | Официальная реализация |
+| Название | Языки программирования | Тип размещения | Основное назначение | Безопасность | Зрелость проекта |
+|----------|------------------------|----------------|---------------------|--------------|------------------|
+| [bytebase/dbhub](https://github.com/bytebase/dbhub) | Go | Локальный/Облачный | Универсальный MCP-сервер для популярных баз данных. Позволяет AI взаимодействовать с различными СУБД через единый интерфейс. | Контроль доступа | Активная разработка |
+| [redis/mcp-redis](https://github.com/redis/mcp-redis) | TypeScript | Локальный/Облачный | Официальный интерфейс для управления и поиска данных в Redis. Предоставляет AI доступ к функциям Redis для кэширования и хранения данных. | Аутентификация API | Официальная реализация |
+| [ClickHouse/mcp-clickhouse](https://github.com/ClickHouse/mcp-clickhouse) | TypeScript | Локальный/Облачный | Доступ к ClickHouse для аналитических запросов. Позволяет AI выполнять аналитические запросы к колоночной СУБД ClickHouse. | Аутентификация | Официальная реализация |
+| [supabase-community/supabase-mcp](https://github.com/supabase-community/supabase-mcp) | TypeScript | Облачный | Интеграция с Supabase для управления таблицами, запросами и данными. Дает AI прямой доступ к управлению данными в проектах Supabase. | Токены API | Официальная реализация |
+| [neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j) | TypeScript | Локальный/Облачный | Работа с графовой базой данных Neo4j, выполнение запросов и управление графами знаний. Позволяет AI взаимодействовать с графовыми структурами данных. | Аутентификация | Официальная реализация |
 
 ### 3. Браузерная автоматизация (Browser Automation)
 
-| Название | Языки программирования | Тип размещения | Операционные системы | Безопасность | Функциональность | Зрелость проекта |
-|----------|------------------------|----------------|----------------------|--------------|-----------------|------------------|
-| [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | TypeScript | Локальный | macOS, Windows, Linux | Песочница | Полная автоматизация браузера | Официальная реализация, стабильный релиз |
-| [browsermcp/mcp](https://github.com/browsermcp/mcp) | JavaScript | Локальный | macOS, Windows, Linux | Ограниченный доступ | Управление Chrome | Активная разработка |
-| [eyalzh/browser-control-mcp](https://github.com/eyalzh/browser-control-mcp) | JavaScript | Локальный | Firefox | Расширение браузера | Управление Firefox | Экспериментальный |
-| [pskill9/web-search](https://github.com/pskill9/web-search) | JavaScript | Локальный | все | Базовая | Поиск Google без API ключей | Активная разработка |
+| Название | Языки программирования | Тип размещения | Основное назначение | Безопасность | Зрелость проекта |
+|----------|------------------------|----------------|---------------------|--------------|------------------|
+| [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | TypeScript | Локальный | Официальный сервер Microsoft для взаимодействия с веб-страницами через доступные снимки DOM. Позволяет AI анализировать и автоматизировать действия в браузере. | Песочница | Официальная реализация, стабильный релиз |
+| [browsermcp/mcp](https://github.com/browsermcp/mcp) | JavaScript | Локальный | Автоматизация локального браузера Chrome. Даёт AI возможность управлять браузером пользователя для выполнения различных задач. | Ограниченный доступ | Активная разработка |
+| [eyalzh/browser-control-mcp](https://github.com/eyalzh/browser-control-mcp) | JavaScript | Локальный | Управление браузером Firefox через расширение. Позволяет AI контролировать браузер пользователя для автоматизации задач. | Расширение браузера | Экспериментальный |
+| [pskill9/web-search](https://github.com/pskill9/web-search) | JavaScript | Локальный | Бесплатный веб-поиск через Google без необходимости API ключей. Даёт AI возможность искать информацию в интернете без ограничений. | Базовая | Активная разработка |
 
 ### 4. Облачные платформы (Cloud Platforms)
 
-| Название | Языки программирования | Тип размещения | Операционные системы | Безопасность | Интеграции | Зрелость проекта |
-|----------|------------------------|----------------|----------------------|--------------|------------|------------------|
-| [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) | TypeScript | Облачный | все | Токены API | Cloudflare Workers, KV, R2, D1 | Официальная реализация |
-| [alexei-led/aws-mcp-server](https://github.com/alexei-led/aws-mcp-server) | Go | Локальный | все | Песочница Docker | AWS CLI | Активная разработка |
-| [alexei-led/k8s-mcp-server](https://github.com/alexei-led/k8s-mcp-server) | Go | Локальный | все | Песочница Docker | kubectl, helm, istioctl, argocd | Активная разработка |
-| [pulumi/mcp-server](https://github.com/pulumi/mcp-server) | TypeScript | Локальный/Облачный | все | Токен API | Pulumi | Официальная реализация |
+| Название | Языки программирования | Тип размещения | Основное назначение | Безопасность | Зрелость проекта |
+|----------|------------------------|----------------|---------------------|--------------|------------------|
+| [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) | TypeScript | Облачный | Официальная интеграция с сервисами Cloudflare. Позволяет AI управлять Workers, KV, R2, D1 и другими сервисами Cloudflare. | Токены API | Официальная реализация |
+| [alexei-led/aws-mcp-server](https://github.com/alexei-led/aws-mcp-server) | Go | Локальный | Выполнение команд AWS CLI в безопасной среде Docker. Позволяет AI управлять ресурсами AWS через естественный язык. | Песочница Docker | Активная разработка |
+| [alexei-led/k8s-mcp-server](https://github.com/alexei-led/k8s-mcp-server) | Go | Локальный | Управление Kubernetes через безопасную среду с поддержкой kubectl, helm и других инструментов. Даёт AI возможность управлять кластерами Kubernetes. | Песочница Docker | Активная разработка |
+| [pulumi/mcp-server](https://github.com/pulumi/mcp-server) | TypeScript | Локальный/Облачный | Взаимодействие с Pulumi для управления облачной инфраструктурой через код. Позволяет AI выполнять операции с инфраструктурой как с кодом. | Токен API | Официальная реализация |
 
 ### 5. Знания и память (Knowledge & Memory)
 
-| Название | Языки программирования | Тип размещения | Операционные системы | Безопасность | Функциональность | Зрелость проекта |
-|----------|------------------------|----------------|----------------------|--------------|-----------------|------------------|
-| [pinecone-io/assistant-mcp](https://github.com/pinecone-io/assistant-mcp) | TypeScript | Облачный | все | Токены API | Pinecone векторная база | Официальная реализация |
-| [modelcontextprotocol/server-memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) | JavaScript | Локальный | все | Базовая | Персистентная память | Референсная реализация |
-| [graphlit-mcp-server](https://github.com/graphlit/graphlit-mcp-server) | TypeScript | Облачный | все | Токены API | RAG с интеграциями | Коммерческий продукт |
-| [kaliaboi/mcp-zotero](https://github.com/kaliaboi/mcp-zotero) | JavaScript | Облачный | все | Авторизация | Интеграция с Zotero | Экспериментальный |
+| Название | Языки программирования | Тип размещения | Основное назначение | Безопасность | Зрелость проекта |
+|----------|------------------------|----------------|---------------------|--------------|------------------|
+| [pinecone-io/assistant-mcp](https://github.com/pinecone-io/assistant-mcp) | TypeScript | Облачный | Подключение к Pinecone Assistant для доступа к векторной базе знаний. Расширяет возможности AI за счет внешней базы знаний. | Токены API | Официальная реализация |
+| [modelcontextprotocol/server-memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) | JavaScript | Локальный | Персистентная память на основе графа знаний для сохранения контекста. Позволяет AI запоминать информацию между сессиями. | Базовая | Референсная реализация |
+| [graphlit-mcp-server](https://github.com/graphlit/graphlit-mcp-server) | TypeScript | Облачный | Интеграция с различными источниками данных (Slack, Discord, Google Drive) для создания контекстуального поиска. Объединяет данные из разных источников для RAG-запросов. | Токены API | Коммерческий продукт |
+| [kaliaboi/mcp-zotero](https://github.com/kaliaboi/mcp-zotero) | JavaScript | Облачный | Коннектор для работы с коллекциями и источниками в Zotero Cloud. Позволяет AI анализировать академические материалы и цитирования. | Авторизация | Экспериментальный |
 
 ### 6. Разработка (Developer Tools)
 
-| Название | Языки программирования | Тип размещения | Операционные системы | Безопасность | Функциональность | Зрелость проекта |
-|----------|------------------------|----------------|----------------------|--------------|-----------------|------------------|
-| [jetbrains/mcpProxy](https://github.com/JetBrains/mcpProxy) | Java | Локальный | macOS, Windows, Linux | Контроль доступа | JetBrains IDE | Официальная реализация |
-| [CircleCI/mcp-server-circleci](https://github.com/CircleCI-Public/mcp-server-circleci) | TypeScript | Облачный | все | Токены API | CircleCI | Официальная реализация |
-| [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | C# | Локальный | macOS, Windows | Ограниченный доступ | Unity Editor | Активная разработка |
-| [CodeLogicIncEngineering/codelogic-mcp-server](https://github.com/CodeLogicIncEngineering/codelogic-mcp-server) | TypeScript | Облачный | все | Авторизация | Анализ кода | Коммерческий продукт |
+| Название | Языки программирования | Тип размещения | Основное назначение | Безопасность | Зрелость проекта |
+|----------|------------------------|----------------|---------------------|--------------|------------------|
+| [jetbrains/mcpProxy](https://github.com/JetBrains/mcpProxy) | Java | Локальный | Официальная интеграция с IDE JetBrains. Позволяет AI взаимодействовать с популярными средами разработки (IntelliJ IDEA, PyCharm и др.). | Контроль доступа | Официальная реализация |
+| [CircleCI/mcp-server-circleci](https://github.com/CircleCI-Public/mcp-server-circleci) | TypeScript | Облачный | Исправление ошибок сборки в CircleCI. Позволяет AI анализировать и исправлять проблемы в CI/CD пайплайнах. | Токены API | Официальная реализация |
+| [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | C# | Локальный | MCP-сервер для Unity Editor и игр, созданных с помощью Unity. Дает AI возможность взаимодействовать с игровым движком. | Ограниченный доступ | Активная разработка |
+| [CodeLogicIncEngineering/codelogic-mcp-server](https://github.com/CodeLogicIncEngineering/codelogic-mcp-server) | TypeScript | Облачный | Анализ зависимостей кода и оценка архитектурных рисков. Помогает AI понимать структуру кодовой базы и оценивать влияние изменений. | Авторизация | Коммерческий продукт |
 
 ### 7. Финансы и Финтех (Finance & Fintech)
 
-| Название | Языки программирования | Тип размещения | Операционные системы | Безопасность | Функциональность | Зрелость проекта |
-|----------|------------------------|----------------|----------------------|--------------|-----------------|------------------|
-| [mcpdotdirect/evm-mcp-server](https://github.com/mcpdotdirect/evm-mcp-server) | TypeScript | Облачный | все | Токены API | 30+ EVM блокчейнов | Активная разработка |
-| [laukikk/alpaca-mcp](https://github.com/laukikk/alpaca-mcp) | TypeScript | Облачный | все | API ключи | Alpaca торговая API | Активная разработка |
-| [AbdelStark/bitcoin-mcp](https://github.com/AbdelStark/bitcoin-mcp) | TypeScript | Локальный | все | Базовая | Bitcoin операции | Активная разработка |
-| [chargebee/mcp](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol) | TypeScript | Облачный | все | Авторизация | Chargebee платформа | Официальная реализация |
+| Название | Языки программирования | Тип размещения | Основное назначение | Безопасность | Зрелость проекта |
+|----------|------------------------|----------------|---------------------|--------------|------------------|
+| [mcpdotdirect/evm-mcp-server](https://github.com/mcpdotdirect/evm-mcp-server) | TypeScript | Облачный | Комплексные сервисы для 30+ EVM-совместимых блокчейнов. Позволяет AI работать с нативными токенами, NFT, смарт-контрактами и транзакциями. | Токены API | Активная разработка |
+| [laukikk/alpaca-mcp](https://github.com/laukikk/alpaca-mcp) | TypeScript | Облачный | Управление портфелями акций и криптовалют через Alpaca API. Дает AI возможность управлять торговыми операциями и получать рыночные данные. | API ключи | Активная разработка |
+| [AbdelStark/bitcoin-mcp](https://github.com/AbdelStark/bitcoin-mcp) | TypeScript | Локальный | Взаимодействие с Bitcoin: генерация ключей, валидация адресов, декодирование транзакций. Обеспечивает AI возможности для работы с биткоин-блокчейном. | Базовая | Активная разработка |
+| [chargebee/mcp](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol) | TypeScript | Облачный | Подключение AI-агентов к платформе Chargebee для управления подписками и платежами. Позволяет AI управлять процессами биллинга. | Авторизация | Официальная реализация |
 
 ### 8. Коммуникации (Communication)
 
-| Название | Языки программирования | Тип размещения | Операционные системы | Безопасность | Функциональность | Зрелость проекта |
-|----------|------------------------|----------------|----------------------|--------------|-----------------|------------------|
-| [modelcontextprotocol/server-slack](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) | JavaScript | Облачный | все | OAuth | Slack интеграция | Референсная реализация |
-| [line/line-bot-mcp-server](https://github.com/line/line-bot-mcp-server) | JavaScript | Облачный | все | Токены API | LINE интеграция | Официальная реализация |
-| [InditexTech/mcp-teams-server](https://github.com/InditexTech/mcp-teams-server) | TypeScript | Облачный | все | OAuth | Microsoft Teams | Активная разработка |
-| [elie222/inbox-zero](https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server) | TypeScript | Облачный | все | OAuth | Gmail | Активная разработка |
+| Название | Языки программирования | Тип размещения | Основное назначение | Безопасность | Зрелость проекта |
+|----------|------------------------|----------------|---------------------|--------------|------------------|
+| [modelcontextprotocol/server-slack](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) | JavaScript | Облачный | Интеграция с рабочими пространствами Slack для управления каналами и сообщениями. Позволяет AI взаимодействовать с командами в Slack. | OAuth | Референсная реализация |
+| [line/line-bot-mcp-server](https://github.com/line/line-bot-mcp-server) | JavaScript | Облачный | Интеграция с LINE Official Account для коммуникации в популярном мессенджере. Дает AI возможность отправлять и получать сообщения через LINE. | Токены API | Официальная реализация |
+| [InditexTech/mcp-teams-server](https://github.com/InditexTech/mcp-teams-server) | TypeScript | Облачный | Интеграция с Microsoft Teams для управления сообщениями, упоминаниями и обсуждениями. Позволяет AI участвовать в командных коммуникациях через Teams. | OAuth | Активная разработка |
+| [elie222/inbox-zero](https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server) | TypeScript | Облачный | Расширенная функциональность Gmail с возможностью отслеживания писем, требующих ответа или дальнейших действий. Помогает AI управлять электронной почтой. | OAuth | Активная разработка |
 
 ### 9. Выполнение кода (Code Execution)
 
-| Название | Языки программирования | Тип размещения | Операционные системы | Безопасность | Функциональность | Зрелость проекта |
-|----------|------------------------|----------------|----------------------|--------------|-----------------|------------------|
-| [pydantic/pydantic-ai/mcp-run-python](https://github.com/pydantic/pydantic-ai/tree/main/mcp-run-python) | Python | Локальный | все | Песочница | Python код | Официальная реализация |
-| [yepcode/mcp-server-js](https://github.com/yepcode/mcp-server-js) | JavaScript | Облачный | все | Песочница | JavaScript/Python код | Коммерческий продукт |
-| [oraios/serena](https://github.com/oraios/serena) | TypeScript | Локальный | все | Ограниченный доступ | Полноценный агент кодирования | Активная разработка |
-| [ezyang/codemcp](https://github.com/ezyang/codemcp) | TypeScript | Локальный | все | Ограниченный доступ | Базовый агент кодирования | Активная разработка |
+| Название | Языки программирования | Тип размещения | Основное назначение | Безопасность | Зрелость проекта |
+|----------|------------------------|----------------|---------------------|--------------|------------------|
+| [pydantic/pydantic-ai/mcp-run-python](https://github.com/pydantic/pydantic-ai/tree/main/mcp-run-python) | Python | Локальный | Безопасное выполнение Python-кода через MCP. Позволяет AI запускать и тестировать код Python в изолированной среде. | Песочница | Официальная реализация |
+| [yepcode/mcp-server-js](https://github.com/yepcode/mcp-server-js) | JavaScript | Облачный | Выполнение любого сгенерированного LLM кода в безопасной среде с поддержкой NPM и PyPI. Дает AI возможность безопасно запускать код на JavaScript и Python. | Песочница | Коммерческий продукт |
+| [oraios/serena](https://github.com/oraios/serena) | TypeScript | Локальный | Полноценный агент для программирования с использованием языковых серверов для символьных операций с кодом. Позволяет AI писать и редактировать код с глубоким пониманием его структуры. | Ограниченный доступ | Активная разработка |
+| [ezyang/codemcp](https://github.com/ezyang/codemcp) | TypeScript | Локальный | Агент для программирования с базовыми функциями чтения, записи и командной строки. Предоставляет минимальный набор инструментов для работы с кодом. | Ограниченный доступ | Активная разработка |
 
 ### 10. Системы файлов (File Systems)
 
-| Название | Языки программирования | Тип размещения | Операционные системы | Безопасность | Функциональность | Зрелость проекта |
-|----------|------------------------|----------------|----------------------|--------------|-----------------|------------------|
-| [modelcontextprotocol/server-filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | JavaScript | Локальный | все | Контроль доступа | Прямой доступ к файлам | Референсная реализация |
-| [modelcontextprotocol/server-google-drive](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) | JavaScript | Облачный | все | OAuth | Google Drive | Референсная реализация |
-| [mickaelkerjean/filestash](https://github.com/mickael-kerjean/filestash/tree/master/server/plugin/plg_handler_mcp) | Go | Локальный/Облачный | все | Авторизация | Множество хранилищ | Активная разработка |
-| [hmk/box-mcp-server](https://github.com/hmk/box-mcp-server) | JavaScript | Облачный | все | OAuth | Box | Активная разработка |
+| Название | Языки программирования | Тип размещения | Основное назначение | Безопасность | Зрелость проекта |
+|----------|------------------------|----------------|---------------------|--------------|------------------|
+| [modelcontextprotocol/server-filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | JavaScript | Локальный | Прямой доступ к локальной файловой системе. Позволяет AI читать, записывать и управлять файлами в указанных директориях. | Контроль доступа | Референсная реализация |
+| [modelcontextprotocol/server-google-drive](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) | JavaScript | Облачный | Интеграция с Google Drive для листинга, чтения и поиска файлов. Даёт AI возможность работать с документами в облачном хранилище. | OAuth | Референсная реализация |
+| [mickaelkerjean/filestash](https://github.com/mickael-kerjean/filestash/tree/master/server/plugin/plg_handler_mcp) | Go | Локальный/Облачный | Доступ к удаленным хранилищам: SFTP, S3, FTP, SMB, WebDAV, GIT и др. Универсальный интерфейс для работы с множеством файловых хранилищ. | Авторизация | Активная разработка |
+| [hmk/box-mcp-server](https://github.com/hmk/box-mcp-server) | JavaScript | Облачный | Интеграция с Box для листинга, чтения и поиска файлов. Позволяет AI работать с документами в корпоративном облачном хранилище. | OAuth | Активная разработка |
 
 ## Выводы и рекомендации
 
