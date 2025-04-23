@@ -19,7 +19,7 @@
 <div align="center">
   <table>
     <tr>
-      <td width="50%" align="center">
+      <td width="33%" align="center">
         <a href="Сравнительный%20анализ%20инструментов%20Vibe%20Coding.md">
           <img src="https://github.com/dzhechko/vibe-coding-blog/assets/yourname/vibe-tools-analysis.png" width="100%" alt="Анализ инструментов">
           <br />
@@ -27,7 +27,7 @@
         </a>
         <p>Детальное сравнение инструментов ИИ-программирования с оценкой по 10 ключевым параметрам</p>
       </td>
-      <td width="50%" align="center">
+      <td width="33%" align="center">
         <a href="Обзор%20и%20сравнение%20платформ%20для%20MCP.md">
           <img src="https://github.com/dzhechko/vibe-coding-blog/assets/yourname/mcp-platforms.png" width="100%" alt="MCP платформы">
           <br />
@@ -35,9 +35,7 @@
         </a>
         <p>Анализ экосистемы Model Context Protocol и доступных решений для создания MCP-серверов</p>
       </td>
-    </tr>
-    <tr>
-      <td width="50%" align="center">
+      <td width="33%" align="center">
         <a href="Мультимодальные%20LLM%20для%20автоматизации.md">
           <img src="https://github.com/dzhechko/vibe-coding-blog/assets/yourname/multimodal-llm.png" width="100%" alt="Мультимодальные LLM">
           <br />
@@ -45,7 +43,17 @@
         </a>
         <p>Исследование мультимодальных моделей для автоматизации задач на ПК</p>
       </td>
-      <td width="50%" align="center">
+    </tr>
+    <tr>
+      <td width="33%" align="center">
+        <a href="Сравнительный анализ MCP-серверов.md">
+          <img src="https://github.com/dzhechko/vibe-coding-blog/assets/yourname/mcp-comparison.png" width="100%" alt="Сравнительный анализ MCP-серверов">
+          <br />
+          <b>Сравнительный анализ MCP-серверов</b>
+        </a>
+        <p>Подробное сравнение и выводы по ключевым платформам MCP-серверов</p>
+      </td>
+      <td width="33%" align="center">
         <a href="Сравнение%20инструментов%20для%20автоматизац.md">
           <img src="https://github.com/dzhechko/vibe-coding-blog/assets/yourname/automation-tools.png" width="100%" alt="Инструменты автоматизации">
           <br />
@@ -53,6 +61,7 @@
         </a>
         <p>Табличное сравнение инструментов автоматизации ПК на базе мультимодальных LLM</p>
       </td>
+      <td width="33%" align="center"></td>
     </tr>
   </table>
 </div>
