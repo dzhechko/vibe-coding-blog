@@ -61,7 +61,14 @@
         </a>
         <p>Табличное сравнение инструментов автоматизации ПК на базе мультимодальных LLM</p>
       </td>
-      <td width="33%" align="center"></td>
+      <td width="33%" align="center">
+        <a href="Сравнительный%20анализ%20GenAI%20tools%20для%20IaaC.md">
+          <img src="https://github.com/dzhechko/vibe-coding-blog/assets/yourname/genai-iaac-tools.png" width="100%" alt="GenAI tools для IaaC">
+          <br />
+          <b>Сравнительный анализ GenAI tools для IaaC</b>
+        </a>
+        <p>Обзор и сравнение инструментов DevOps и Infrastructure as Code на базе генеративного ИИ</p>
+      </td>
     </tr>
   </table>
 </div>
