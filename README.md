@@ -70,6 +70,18 @@
         <p>Обзор и сравнение инструментов DevOps и Infrastructure as Code на базе генеративного ИИ</p>
       </td>
     </tr>
+    <tr>
+      <td width="33%" align="center">
+        <a href="Сравнительный%20анализ%20Open%20Source%20AI-агентов.md">
+          <img src="https://github.com/dzhechko/vibe-coding-blog/assets/yourname/opensource-ai-agents.png" width="100%" alt="Open Source AI-агенты">
+          <br />
+          <b>Сравнительный анализ Open Source AI-агентов</b>
+        </a>
+        <p>Детальное сравнение популярных open source AI-агентов по 7 ключевым критериям</p>
+      </td>
+      <td width="33%" align="center"></td>
+      <td width="33%" align="center"></td>
+    </tr>
   </table>
 </div>
 
